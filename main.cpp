@@ -13,9 +13,9 @@ void printBandwiderstand(const std::vector<BandWiderstand>& bandwiderstand)
 
 int main()
 {
-    //BandWiderstand b1{"R1", 4, brown, red, green, gold};
-    //BandWiderstand b2{"R2", 5, brown, black, black, red, brown};
-    BandWiderstand b3{"R3", 6, red, violet, yellow, black, red, black};
+    //BandWiderstand b1{"R1", brown, red, green, gold};
+    //BandWiderstand b2{"R2", brown, black, black, red, brown};
+    BandWiderstand b3{"R3", red, violet, yellow, black, red, black};
 
     //std::vector<BandWiderstand>b_all{};
     //b_all.push_back(b1);
