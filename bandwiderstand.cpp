@@ -1,6 +1,6 @@
 #include "bandwiderstand.hpp"
 
-BandWiderstand::BandWiderstand(const std::string name, const double anzahlRinge, const color farbe1, const color farbe2, const color farbe3, const color farbe4, const color farbe5) : m_name(name), m_anzahlRinge(anzahlRinge), m_farbe1(farbe1), m_farbe2(farbe2), m_farbe3(farbe3), m_farbe4(farbe4), m_farbe5(farbe5) {}
+BandWiderstand::BandWiderstand(const std::string name, const double anzahlRinge, const color farbe1, const color farbe2, const color farbe3, const color farbe4, const color farbe5) : m_name(name), m_anzahlRinge(anzahlRinge), m_farbe1(farbe1), m_farbe2(farbe2), m_farbe3(farbe3), m_farbe4(farbe4), m_farbe5(farbe5), m_farbe6(empty) {}
 BandWiderstand::BandWiderstand(const std::string name, const double anzahlRinge, const color farbe1, const color farbe2, const color farbe3, const color farbe4, const color farbe5, const color farbe6) : m_name(name), m_anzahlRinge(anzahlRinge), m_farbe1(farbe1), m_farbe2(farbe2), m_farbe3(farbe3), m_farbe4(farbe4), m_farbe5(farbe5), m_farbe6(farbe6) {}
 
 std::string farbe(color c)

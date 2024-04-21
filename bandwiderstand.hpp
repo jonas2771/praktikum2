@@ -3,6 +3,7 @@
 
 enum color
 {
+    empty = 0,
     black = 1,
     brown = 2,
     red = 3,
